@@ -87,15 +87,19 @@ button {
     color:#F9FAF8;
 }
 
+
+
 .heroimage-right {
     display:flex;
     flex-direction:column;
     width:400px;
     height:200px;
     padding:5px;
-    border:5px;
+    border:solid #30445f;
     object-fit:cover;
+    border-width:5px;
 }
+
 
 /* MIDDLE */
 .middle-title {
@@ -141,4 +145,45 @@ button {
 .quote-author {
     align-self:flex-end;
     
+}
+
+/* SIGN UP SECTION */
+.signup-section {
+    display:flex; 
+    background-color:#F9FAF8;
+    padding:60px;
+    justify-content:center;
+    align-items:center;
+}
+.blue-signup {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10rem;
+    width:950px;
+    height:120px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:5px;
+    border:solid 4px;
+    border-color:#2e65bd
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    background-color: #1f2937;
+    color:#F9FAF8;
+   
 }
